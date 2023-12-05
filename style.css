@@ -1,13 +1,13 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-color: bisque;
-  color: magenta;
-  text-align: center;
-  font-size: 40px;
+.link-list li {
+  display: inline-block;
 }
-
-div:hover {
-  background-color: chocolate;
-  color: aqua;
+.page-link {
+  text-decoration: none;
+  background-color: lightblue;
+  padding: 10px;
+  color: rgb(99, 64, 0);
+}
+.page-link:hover {
+  background-color: brown;
+  color: aliceblue;
 }
