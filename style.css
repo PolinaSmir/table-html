@@ -1,12 +1,13 @@
-table,
-th,
-td,
-tr {
-  border: 2px solid black;
-  border-collapse: collapse;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  color: magenta;
+  text-align: center;
+  font-size: 40px;
 }
 
-.text-bold {
-  font-weight: bold;
-  text-align: center;
+div:hover {
+  background-color: chocolate;
+  color: aqua;
 }
