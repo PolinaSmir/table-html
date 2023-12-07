@@ -1,49 +1,22 @@
-.link-list li {
-  display: inline-block;
+div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
 }
-.page-link {
-  text-decoration: none;
-  background-color: lightblue;
-  padding: 10px;
-  color: rgb(99, 64, 0);
-}
-.page-link:hover {
-  background-color: brown;
-  color: aliceblue;
-}
-.page-link:focus {
-  border: 5px solid rgb(70, 26, 8);
-}
-.page-link:active {
-  background-color: aqua;
-  color: black;
-}
-input:focus {
-  background-color: aquamarine;
-}
-/* li:first-child {
-  color: blue;
-}
-li:last-child {
-  color: green;
+/* 
+div:first-child {
+  background-color: red;
 } */
-/* li:nth-child(odd) { */
-/* color: orange;
-  background-color: bisque;
+div:nth-child(odd) {
+  background-color: red;
 }
-/* li:nth-child(even) { */
-/* color: orangered;
-  background-color: bisque;
-} */
-/* li:nth-child(5) {
-  color: blueviolet;
-} */
-/* li:nth-child(n + 4) {
-  color: brown;
-} */
-/* li:nth-child(-n + 5) {
-  color: red;
-} */
-li:nth-child(3n + 1) {
-  color: darkblue;
+
+div:nth-child(even) {
+  background-color: green;
 }
+div:nth-child(3n) {
+  background-color: blue;
+}
+/* div:nth-child(2n + 5) {
+  background-color: red;
+} */
