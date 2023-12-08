@@ -6,3 +6,7 @@ p::first-letter {
   color: red;
   font-style: italic;
 }
+p::first-line {
+  background-color: lightgreen;
+  color: blueviolet;
+}
