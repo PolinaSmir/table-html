@@ -1,5 +1,6 @@
 p {
   color: blue;
+  cursor: zoom-in;
 }
 p::first-letter {
   font-size: 20px;
@@ -9,4 +10,8 @@ p::first-letter {
 p::first-line {
   background-color: lightgreen;
   color: blueviolet;
+}
+p::selection {
+  color: purple;
+  background-color: cyan;
 }
