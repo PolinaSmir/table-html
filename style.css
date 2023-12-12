@@ -1,26 +1,40 @@
-p {
-  color: blue;
+* {
+  box-sizing: border-box;
 }
-p::first-letter {
-  font-family: "Smooch", cursive;
-  font-size: 30px;
+.card-container {
+  width: 35vw;
+  height: 80vh;
+  border: 1px solid black;
 }
-p::first-line {
-  background-color: plum;
+.header {
+  height: 50%;
+  width: 100%;
+  background-image: url("./pictures/dog.jpg");
+  background-size: cover;
 }
-p::before {
-  position: absolute;
-  top: 10px;
-  content: "＂";
-  color: purple;
-  display: inline-block;
-  font-size: large;
+.card {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-p::after {
-  bottom: 5px;
-  right: 10px;
-  content: "＂";
-  color: purple;
-  display: inline-block;
-  font-size: large;
+.user-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -20%;
+}
+h2,
+h3 {
+  color: black;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+  margin-bottom: 15px;
 }
